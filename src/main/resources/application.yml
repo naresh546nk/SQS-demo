@@ -1,0 +1,12 @@
+cloud:
+  aws:
+    region:
+      static: us-west-1
+      auto: false
+    stack:
+      auto: false
+    end-point:
+      uri: https://sqs.us-west-1.amazonaws.com/796731763832/MySQSQueue
+
+server:
+  port: 8081
